@@ -1,8 +1,24 @@
+@import url(header.css);
 :root{
     --bgcolor:#171717;
     --textcolor:#fefefe;
+    --primarycolor:#435f38;
+    --secondarycolor:#5a4b1e;
+    --bordercolor:#fefefe3b;
 }
 
 body{
     margin: 0;
+    background-color: var(--bgcolor);
+    color: var(--textcolor);
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.temp{
+white-space: pre-wrap;
+text-align: center;
 }

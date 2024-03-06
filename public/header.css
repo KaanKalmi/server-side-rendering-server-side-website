@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+nav {
+    border-bottom: 1px solid var(--bordercolor);
+    & ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        & li {
+            padding: .8em;
+
+            & a {
+                color: var(--textcolor);
+                text-decoration: none;
+            }
+        }
+    }
+}
