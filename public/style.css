@@ -1,24 +1,69 @@
 @import url(header.css);
-:root{
-    --bgcolor:#171717;
-    --textcolor:#fefefe;
-    --primarycolor:#435f38;
-    --secondarycolor:#5a4b1e;
-    --bordercolor:#fefefe3b;
+
+:root {
+    --bgcolor: #1a1a1a;
+    --textcolor: #fefefe;
+    --primarycolor: #54990e;
+    --secondarycolor: #DAF7A6;
+    --bordercolor: #fefefe3b;
 }
 
-body{
+body {
     margin: 0;
     background-color: var(--bgcolor);
     color: var(--textcolor);
 }
 
-h1{
+h1 {
     text-align: center;
     font-size: 2em;
     text-transform: uppercase;
 }
-.temp{
-white-space: pre-wrap;
-text-align: center;
+
+.introduction {
+    font-size: 4.25em;
+    text-align: left;
+    margin-left: 1em;
+    letter-spacing: .075em;
+    white-space: pre;
+}
+
+.start-now-btn {
+    color: var(--textcolor);
+    text-decoration: none;
+    margin-left: 1.5em;
+    background-color: var(--primarycolor);
+    padding-inline: 1em;
+    padding-block: .25em;
+    border-radius: 100em;
+    font-weight: 700;
+    font-size: 3.25em;
+    transition: all .2s ease-in-out;
+    width: fit-content;
+
+    & a {
+        color: var(--textcolor);
+        text-decoration: none;
+    }
+}
+
+.start-now-btn:hover {
+    transform: scale(1.1);
+}
+
+.focal-point {
+    display: flex;
+
+    & img {
+        position: absolute;
+        bottom: 150px;
+        right: 450px;
+        height: 750px;
+
+        &.img-2 {
+            z-index: 1;
+            bottom: 80px;
+            right: 650px;
+        }
+    }
 }

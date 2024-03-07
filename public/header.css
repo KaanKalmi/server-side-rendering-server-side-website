@@ -1,20 +1,21 @@
 header{
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    height: 65px;
+    text-align: left;
+    margin-left: 3em;
 }
 nav {
     border-bottom: 1px solid var(--bordercolor);
+    height: 65px;
     & ul {
         list-style: none;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: right;
         align-items: center;
-
+        margin-right: 2em;
         & li {
             padding: .8em;
-
+            margin-inline: .75em;
             & a {
                 color: var(--textcolor);
                 text-decoration: none;
