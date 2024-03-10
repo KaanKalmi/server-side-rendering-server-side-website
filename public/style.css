@@ -23,9 +23,10 @@ h1 {
 .introduction {
     font-size: 4.25em;
     text-align: left;
-    margin-left: 1em;
-    letter-spacing: .075em;
-    white-space: pre;
+    margin-left: 1.2em;
+    letter-spacing: .256em;
+    text-wrap: wrap;
+    font-weight: 500;
 }
 
 .start-now-btn {
@@ -57,13 +58,12 @@ h1 {
     & img {
         position: absolute;
         bottom: 150px;
-        right: 450px;
+        right: 250px;
         height: 750px;
-
         &.img-2 {
             z-index: 1;
             bottom: 80px;
-            right: 650px;
+            right: 450px;
         }
     }
 }
