@@ -53,17 +53,14 @@ h1 {
 }
 
 .focal-point {
-    display: flex;
-
+    position: relative;
     & img {
         position: absolute;
-        bottom: 150px;
-        right: 250px;
-        height: 750px;
+        right: 150px;
+        height: 350px;
         &.img-2 {
             z-index: 1;
-            bottom: 80px;
-            right: 450px;
+            right: 175px;
         }
     }
 }
