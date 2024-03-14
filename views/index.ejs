@@ -1,17 +1,18 @@
 <%- include('./partials/head') %>
-
-<!-- Hier komt dus de rest van de home page, denk aan een korte introductie met sign up etc en een button dat verwijst naar een soort tutorial, hier krijgen we schermen waarbij je stap voor stap alles kan invullen en uitleg krijgt over wat je invult en waarom. Vervolgens bij optie 1 kunnen we een overview geven over het bedrijf, bij optie 2 de calculator en bij optie 3 de contact pagina? -->
-
-<h1 class="introduction"> Track your environmental impact with CrossmarX</h1>
-<div class="start-now-btn">
-    <a  href="#">➝</a>
-</div>
-
-
-<div class="focal-point">
-    <img src="beer.webp" alt="bipbap">
-    <img src="zelfportret.png" alt="bipbap" class="img-2">
-</div>
+<main>
+    <link rel="stylesheet" href="/dashboard.css">
+    <h2>Dashboard</h2>
+    <div class="status-box">
+        <section class="handprint">
+            <h3>Handprint</h3>
+            <small>Je handprint is hetzelfde als ...kg</small>
+            <label> Handprint <progress id="handprint" value="27" max="100">50%</progress> </label>
+        </section>
+    <section class="footprint">
+        <h3>Footprint</h3>
+        <small>Je footprint is hetzelfde als ...kg</small>
+        <label> Footprint <progress id="footprint" value="73" max="100">50%</progress> </label>
+        </section>
+    </div>
+</main>
 <%- include('./partials/foot') %>
-
-```

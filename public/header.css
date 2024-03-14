@@ -17,7 +17,7 @@ nav {
             padding: .8em;
             margin-inline: .75em;
             & a {
-                color: var(--textcolor);
+                color: var(--secondarycolor);
                 text-decoration: none;
             }
         }

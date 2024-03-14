@@ -14,53 +14,17 @@ body {
     color: var(--textcolor);
 }
 
-h1 {
+h1, h2, h3 {
     text-align: center;
     font-size: 2em;
     text-transform: uppercase;
+    letter-spacing: .1em;
 }
 
-.introduction {
-    font-size: 4.25em;
-    text-align: left;
-    margin-left: 1.2em;
-    letter-spacing: .256em;
-    text-wrap: wrap;
-    font-weight: 500;
-}
+h2{ font-size: 1.5em; }
+h3{ font-size: 1.2em; }
 
-.start-now-btn {
-    color: var(--textcolor);
-    text-decoration: none;
-    margin-left: 1.5em;
-    background-color: var(--primarycolor);
-    padding-inline: 1em;
-    padding-block: .25em;
-    border-radius: 100em;
-    font-weight: 700;
-    font-size: 3.25em;
-    transition: all .2s ease-in-out;
-    width: fit-content;
-
-    & a {
-        color: var(--textcolor);
-        text-decoration: none;
-    }
-}
-
-.start-now-btn:hover {
-    transform: scale(1.1);
-}
-
-.focal-point {
-    position: relative;
-    & img {
-        position: absolute;
-        right: 150px;
-        height: 350px;
-        &.img-2 {
-            z-index: 1;
-            right: 175px;
-        }
-    }
+small{ 
+    display: block;
+    text-align: center;
 }
